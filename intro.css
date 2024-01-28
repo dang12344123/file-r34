@@ -1,0 +1,43 @@
+ul {
+    list-style: none;
+}
+  
+  li {
+    display: inline;
+    margin-right: 10px;   
+}
+a:hover  {
+    text-decoration: underline;
+    color:blue;
+}
+.val{
+    border: 2px outset black; 
+    padding: 10px 20px; 
+    margin-left: 0px;
+}  
+p{
+    text-align: center;
+    font-size: -large;
+}
+.indam{
+    margin-top: 20px;
+    font-size: x-large;
+}
+.dacbiet{
+    margin-top: 10px;
+}
+.footer {
+    background-color:burlywood;
+    color:black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+#name{
+    font-size: xx-large;
+} 

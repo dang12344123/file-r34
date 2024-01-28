@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 150px;
+}
+.menu{
+    margin-top: -114px;
+    margin-left: -1000px;
+}
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover  {
+    text-decoration: underline;
+    color:blue;
+  }
+body{
+     
+/* Đường dẫn đến hình ảnh bạn muốn sử dụng */
+    background-image: url('https://wallpapers.com/images/hd/chill-anime-lt5hp5qcv2kkg76h.jpg');
+/* Đặt hình ảnh làm hình nền và lặp lại nó theo chiều ngang và dọc */
+    background-repeat: repeat;
+/* Căn giữa hình nền */
+   background-position: center center;
+/* Xác định kích thước của hình nền */
+   background-size: cover;
+/* Thiết lập màu nền nếu hình ảnh không tải được hoặc không tồn tại */
+   background-color: #eeeeee;
+/* Làm mờ hình nền bằng filter */
+   backdrop-filter:  blur(5px); /* Điều chỉnh giá trị số px tùy thuộc vào mức độ mờ bạn muốn */
+}

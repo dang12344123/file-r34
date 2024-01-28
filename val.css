@@ -1,0 +1,79 @@
+
+.border{
+    margin-top: 20px;
+    border: 2px outset black; 
+    padding: 10px 20px; 
+    margin-left: 0px;   
+    display: flex;
+}
+h1,h3,h5{
+    font-size:larger ;
+}
+h2,h4,h6{
+    font-size: small;
+}
+#topic{
+    border: none;
+    text-align: center;
+    font-size: x-large;
+    background-color: red;
+    color: black;
+}
+ul {
+    list-style: none;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 10px; 
+  }
+  .home {
+    border: 2px outset black; 
+    padding: 10px 20px; 
+    margin-left: 0px;
+  }
+  .lol{
+    border: 2px outset black; 
+    padding: 10px 20px; 
+    margin-left: 0px;
+  }
+  .logoval{
+    width: 40px; ;
+    height: 40px;
+  }
+  a:hover {
+    text-decoration: underline;
+     color:blue;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  h1:hover,h3:hover,h5:hover{
+    color: red;
+  }
+.tin2_desc{
+  display: block;
+}
+.pictin1{
+  width: 43%;
+}
+.tin1_content,.tin2_content,.tin3_content{
+  margin-left: 30px;
+}
+.footer {
+  margin-top: 30px;
+  background-color: burlywood;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+
+
+
+

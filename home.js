@@ -1,0 +1,1 @@
+w3.picture('.slides' , 2000)

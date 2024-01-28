@@ -1,0 +1,71 @@
+ul {
+    list-style: none;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 10px; 
+  }
+  
+  img{
+    width: 90%;
+    height: 500px;
+  }
+  .tenweb{
+    text-align: center;
+    font-size: larger;
+    background-color:red;
+    color: white;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover  {
+    text-decoration: underline;
+    color:blue;
+  }
+  .lol {
+    border: 2px outset black; 
+    padding: 10px 20px; 
+    margin-left: 0px;
+  }
+  .val{
+    border: 2px outset black; 
+    padding: 10px 20px; 
+    margin-left: 0px;
+  }
+  h1{
+    text-align: center;
+  }
+  .picture{
+margin-left: 100px;
+  }
+ .container{
+  display:flex;
+ }
+ .video{
+  display: block;
+  text-align: center;
+ }
+ .video1{
+  display: grid;
+  margin-left: 30px;
+  margin-top: 30px;
+ }
+ .container{
+  justify-content: center;
+ }
+ .footer {
+  background-color: burlywood;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+body{
+  background-color:floralwhite;
+}
+

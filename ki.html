@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đăng Ký</title>
+    <link rel="stylesheet" href="./ki.css">
+    <link rel="stylesheet" href="./home.css">
+
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li class="lol">
+                <a href="./index.html" class="o">HOME</a></li>
+            </li>
+    
+            <li class="lol">
+                <a href="lol.html" class="o">LOL</a></li>
+            </li>
+
+            <li class="val">
+                <a href="val.html" class="o">VALORANT</a>
+            </li>
+
+            <li class="val">
+                <a href="intro.html" class="o">Giới thiệu </a>
+            </li>
+       
+        </ul>
+    </div>
+
+    <form action="/process-registration" method="post">
+        <h2>Đăng Ký</h2>
+        <label for="username">Tên Người Dùng</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Mật Khẩu</label>
+        <input type="password" id="password" name="password" required>
+
+        <button id="btn" type="submit">Đăng kí</button required>
+    </form>
+    
+    
+</body>
+<script src="./ki.js"></script>
+</html>
